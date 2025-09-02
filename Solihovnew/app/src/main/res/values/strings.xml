@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SolihovMD_PR-31_03</string>
+    <string name="Reg">Регистрация</string>
+    <string name="text">Введите ваш логин и пароль</string>
+    <string name="Login">Логин</string>
+    <string name="Password">Пароль</string>
+    <string name="Vhod">Войти</string>
+</resources>
