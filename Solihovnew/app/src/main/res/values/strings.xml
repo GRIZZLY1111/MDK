@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">SolihovMD_PR-31_03</string>
     <string name="Reg">Регистрация</string>
+    <string name="Raschet">Расчет площади</string>
     <string name="text">Введите ваш логин и пароль</string>
     <string name="Login">Логин</string>
     <string name="Password">Пароль</string>
     <string name="Vhod">Войти</string>
+    <string name="text1">1. 1-о комнатная квартира</string>
+    <string name="text2">1. 1-о комнатная квартира\n
+        2. 2-х комнатная квартира\n
+        3. 3-х комнатная квартира\n
+        4. Студия</string>
+    <string name="text3">Введите количество метров</string>
 </resources>
