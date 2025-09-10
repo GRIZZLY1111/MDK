@@ -6,24 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".Raschetstoimostikvartir"
     android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:background="@drawable/arrow"
+        />
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="@string/text4"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
         <TextView
             android:layout_width="300dp"
             android:layout_height="65dp"
             android:text="@string/Raschet"
-            android:layout_marginTop="78dp"
+            android:layout_marginTop="43dp"
             android:layout_marginLeft="68dp"
             android:layout_marginRight="43dp"
             android:textStyle="bold"
             android:textSize="36sp"
             android:textColor="@color/pink"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"/>
     <LinearLayout
         android:layout_width="411dp"
         android:layout_height="519dp"
         android:layout_marginTop="41dp"
         android:background="@color/lightblue"
         android:orientation="vertical"
+
         >
         <RelativeLayout
             android:layout_width="373dp"
@@ -77,7 +98,7 @@
             android:layout_marginLeft="145dp"
             android:orientation="vertical">
             <FrameLayout
-                android:layout_width="160dp"
+                android:layout_width="161dp"
                 android:layout_height="35dp"
                 android:background="@drawable/radius"
                 android:backgroundTint="@color/white"
@@ -93,14 +114,37 @@
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="350dp"
             android:layout_height="70dp"
-            android:layout_marginTop="183.05dp"
+            android:layout_marginTop="33dp"
             android:layout_marginLeft="30dp"
             android:backgroundTint="@color/blue"
             android:background="@drawable/radius"
-            android:text="@string/Vhod"
+            android:text="@string/Raschet1"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold">
         </androidx.appcompat.widget.AppCompatButton>
+        <RelativeLayout
+            android:layout_width="161dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="145dp"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="161dp"
+                android:layout_height="55dp"
+                android:background="@drawable/radius"
+                android:backgroundTint="@color/white"
+                >
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="@string/Result"
+                android:textSize="14sp"
+                android:layout_marginTop="7.86dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                ></TextView>
+        </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

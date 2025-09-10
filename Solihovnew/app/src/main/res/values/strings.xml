@@ -6,10 +6,15 @@
     <string name="Login">Логин</string>
     <string name="Password">Пароль</string>
     <string name="Vhod">Войти</string>
+    <string name="Raschet1">Рассчитать</string>
+    <string name="Result">результат</string>
+    <string name="Result1">Результат расчета</string>
     <string name="text1">1. 1-о комнатная квартира</string>
     <string name="text2">1. 1-о комнатная квартира\n
         2. 2-х комнатная квартира\n
         3. 3-х комнатная квартира\n
         4. Студия</string>
     <string name="text3">Введите количество метров</string>
+    <string name="text4">на главное меню</string>
+    <string name="kolvo">Количество метров</string>
 </resources>
